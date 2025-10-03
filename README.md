@@ -37,11 +37,9 @@ docker build -t design-agent-ui .
 docker run --env-file .env design-agent-ui
 ```
 ## Sample output detail
-image1.png is generated after user prompt: generate a blue sports car with a fall colored tree
-image2.png is generated after user prompt: remove the furistic style, generate the image on a riverbank 
+- image1.png is generated after user prompt: generate a blue sports car with a fall colored tree
+- image2.png is generated after user prompt: remove the furistic style, generate the image on a riverbank 
 
-Notes
-
-Do not hardcode project/bucket credentials in code — use .env.
-
-Ensure GOOGLE_CLOUD_STORAGE_BUCKET is just the bucket name (no gs://).
+##Notes
+1. Do not hardcode project/bucket credentials in code — use .env.
+2. Ensure GOOGLE_CLOUD_STORAGE_BUCKET is just the bucket name (no gs://).
