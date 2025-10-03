@@ -1,0 +1,12 @@
+.git
+.gitignore
+.env
+__pycache__/
+*.pyc
+*.png
+*.jpg
+*.jpeg
+*.svg
+.ipynb_checkpoints/
+.DS_Store
+

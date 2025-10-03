@@ -1,0 +1,23 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# Env and secrets
+.env
+
+# Generated images
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+GI
