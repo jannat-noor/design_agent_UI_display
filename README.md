@@ -2,6 +2,9 @@
 
 Generates high-definition PNG images from user prompts using Vertex AI / Imagen, uploads them to Google Cloud Storage, and displays the image in the ADK UI (via `load_artifacts_tool`).
 
+Sample generated image
+- <img width="540" height="416" alt="image2" src="https://github.com/user-attachments/assets/596b0b9f-83ed-4992-a1b9-625d1956ce60" />
+
 ## Setup
 
 1. Clone repo:
@@ -38,7 +41,8 @@ docker run --env-file .env design-agent-ui
 ```
 ## Sample output detail
 - image1.png is generated after user prompt: generate a blue sports car with a fall colored tree
-- image2.png is generated after user prompt: remove the furistic style, generate the image on a riverbank 
+- image2.png is generated after user prompt: remove the furistic style, generate the image on a riverbank
+
 
 ##Notes
 1. Do not hardcode project/bucket credentials in code — use .env.
