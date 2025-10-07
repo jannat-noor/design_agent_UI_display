@@ -2,8 +2,8 @@
 
 Generates high-definition PNG images from user prompts using Vertex AI / Imagen, uploads them to Google Cloud Storage, and displays the image in the ADK UI (via `load_artifacts_tool`).
 
-Sample generated image
-- <img width="540" height="416" alt="image2" src="https://github.com/user-attachments/assets/596b0b9f-83ed-4992-a1b9-625d1956ce60" />
+### Sample generated image
+<img width="540" height="416" alt="image2" src="https://github.com/user-attachments/assets/596b0b9f-83ed-4992-a1b9-625d1956ce60" />
 
 ## Setup
 
